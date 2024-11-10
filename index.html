@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class='container'>
+    <div class='count-div'>
+    <h1>People Counter App</h1>
+    <h2 id="increament-number">0</h2>
+    <div class = 'increase-btns'>
+    <button id="increase-btn" onclick = increament()>INCREASE ME</button>
+    <button id="save-btn" onclick = save()>SAVE NUMBER</button>
+    </div>
+    <p id='number-counted'> Number of Times Counted: </p>
+    </div>
+    <div class='count-div'>
+      <h1>People Counter App</h1>
+      
+      <div class = 'increase-btns'>
+      <button id="increase-btn" onclick = addCart()><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 5l0 14"></path> <path d="M5 12l14 0"></path> </svg> </button>
+      <h2 id="cart-number">0</h2>
+      <button id="save-btn" onclick = minusCart()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus"><path d="M5 12h14"/></svg></button>
+      </div>
+      <button id="save-btn" onclick = saveCart()>SAVE NUMBER</button>
+      <p id='cart-no-number'> Number of Times Counted: </p>
+      </div>
+    </div>
+
+    <script src=script.js></script>
+  </body>
+</html>

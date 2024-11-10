@@ -1,0 +1,73 @@
+body {
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2{
+  font-size: 4rem;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.count-div {
+  min-width: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border: 3px #000 solid;
+  border-radius: 10px;
+  color:black;
+  padding: 30px;
+  text-align: center;
+}
+
+.increase-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+#increase-btn {
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align:center;
+background-color: #000;
+color:white;
+
+}
+
+#save-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  background-color: #000;
+  color:white;
+  
+  }
+
+}
